@@ -1,4 +1,105 @@
-p {
-	font-family: Verdana;
-	color: red;
+/* * {
+	border: dashed 1px blue;
 }
+*/
+
+body {
+	font-family: Arial;
+}
+
+#header {
+	width: 100%;
+	height: 30px;
+}
+
+#header ul {
+	float: right;
+}
+
+#header ul li a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#header ul li a:hover {
+	text-decoration: underline;
+}
+
+img {
+	vertical-align: middle;
+}
+
+li {
+	display: inline;
+	padding: 1px 8px 1px 8px;
+	vertical-align: middle;	
+	list-style-type: none;
+	font-size: 13px;
+}
+
+#centerpiece {
+	text-align: center;
+}
+
+#centerpiece input {
+	font-family: Arial;
+	font-size: 13px;
+	font-style: bold;
+}
+
+#main_logo {
+	height: 165px;
+	width: 288px;
+	padding-top: 100px;
+	margin-left: 350px;
+}
+
+#textarea {
+	display: block;
+	height: 24px;
+	width: 572px;
+	margin: auto;
+}
+
+.search_button {
+	/* FYI - "rgba" means Red Green Blue Alpha. Zero red/green/blue means
+	you're left with black, but the 0.1 alpha means 10% opacity, which
+	makes the end result grey rather than black. Whoa. */
+	font-size: 11px;
+	font-weight: bold;
+	padding: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 4px;
+	border-radius: 2px;
+}
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 31px;
+	width: 100%;
+	margin-top: 210px;
+	border-top: 1px solid #a8a8a8;
+}
+
+#footer ul {
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+}
+
+#name {
+	color: #a8a8a8;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	color: #666666;
+}
+
+#footer ul li a:hover {
+	text-decoration: underline;
+}
+
+
